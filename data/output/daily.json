@@ -1,244 +1,244 @@
 {
   "top_movers": [
     {
-      "symbol": "TSLA",
-      "sector": "Automotive",
-      "returns": {
-        "daily": 1.9840666829399778,
-        "weekly": 0.8626228006004322,
-        "monthly": -5.203153365311442
-      }
-    },
-    {
-      "symbol": "PFE",
-      "sector": "Healthcare",
-      "returns": {
-        "daily": 1.885031649296054,
-        "weekly": 6.945672465095232,
-        "monthly": 10.888628542117097
-      }
-    },
-    {
-      "symbol": "MSFT",
-      "sector": "Technology",
-      "returns": {
-        "daily": 0.553677106172179,
-        "weekly": 1.1381102819994604,
-        "monthly": -12.844205324632519
-      }
-    },
-    {
-      "symbol": "JNJ",
-      "sector": "Healthcare",
-      "returns": {
-        "daily": 0.48986186332808934,
-        "weekly": 2.878163645697085,
-        "monthly": 14.34722694138113
-      }
-    },
-    {
-      "symbol": "XOM",
-      "sector": "Energy",
-      "returns": {
-        "daily": 0.2446895712977737,
-        "weekly": 5.461633852961656,
-        "monthly": 22.212370654603664
-      }
-    }
-  ],
-  "bottom_movers": [
-    {
-      "symbol": "ETH-USD",
-      "sector": "Crypto",
-      "returns": {
-        "daily": -3.8649114175798527,
-        "weekly": 11.010888528942942,
-        "monthly": -34.393030482609234
-      }
-    },
-    {
       "symbol": "SLV",
       "sector": "Commodity",
       "returns": {
-        "daily": -3.156235529961482,
-        "weekly": -4.313928968710268,
-        "monthly": -4.648457608752454
-      }
-    },
-    {
-      "symbol": "BAC",
-      "sector": "Financials",
-      "returns": {
-        "daily": -2.6325130550761577,
-        "weekly": 0.872357148697045,
-        "monthly": -0.4801583552136446
+        "daily": 7.900296354855696,
+        "weekly": 13.125644395436687,
+        "monthly": -8.742253951796508
       }
     },
     {
       "symbol": "GOOGL",
       "sector": "Technology",
       "returns": {
-        "daily": -1.501601815246334,
-        "weekly": -5.963904435447254,
-        "monthly": -3.73952078958375
+        "daily": 4.005284675036913,
+        "weekly": 1.9352786363521446,
+        "monthly": -4.080636365562629
       }
     },
     {
-      "symbol": "JPM",
-      "sector": "Financials",
+      "symbol": "AMZN",
+      "sector": "Technology",
       "returns": {
-        "daily": -1.4809125864210682,
-        "weekly": 0.7876704528106737,
-        "monthly": -2.2065406877228466
+        "daily": 2.5627257563010764,
+        "weekly": 5.265528149024856,
+        "monthly": -9.165188349834274
+      }
+    },
+    {
+      "symbol": "GLD",
+      "sector": "Commodity",
+      "returns": {
+        "daily": 1.9714504323102178,
+        "weekly": 3.817093845589259,
+        "monthly": 5.640213856947818
+      }
+    },
+    {
+      "symbol": "META",
+      "sector": "Technology",
+      "returns": {
+        "daily": 1.6873884663457517,
+        "weekly": 0.9002594001194852,
+        "monthly": 6.966188599781109
+      }
+    }
+  ],
+  "bottom_movers": [
+    {
+      "symbol": "XOM",
+      "sector": "Energy",
+      "returns": {
+        "daily": -2.4441958081538595,
+        "weekly": -1.7674875114647048,
+        "monthly": 10.965996986993298
+      }
+    },
+    {
+      "symbol": "JNJ",
+      "sector": "Healthcare",
+      "returns": {
+        "daily": -1.7901251886877634,
+        "weekly": -0.8423625160036363,
+        "monthly": 11.228848035937421
+      }
+    },
+    {
+      "symbol": "PFE",
+      "sector": "Healthcare",
+      "returns": {
+        "daily": -0.7818353948225831,
+        "weekly": -2.9850735905391113,
+        "monthly": 4.659777773882712
+      }
+    },
+    {
+      "symbol": "CVX",
+      "sector": "Energy",
+      "returns": {
+        "daily": -0.46000980037395056,
+        "weekly": 0.8388151482972006,
+        "monthly": 10.31607832363257
+      }
+    },
+    {
+      "symbol": "MSFT",
+      "sector": "Technology",
+      "returns": {
+        "daily": -0.30868355547025716,
+        "weekly": -1.1472191403481324,
+        "monthly": -10.555937923378067
       }
     }
   ],
   "sector_ranking": [
     {
+      "sector": "Commodity",
+      "avg_return": 4.935873393582957,
+      "count": 2
+    },
+    {
+      "sector": "Technology",
+      "avg_return": 1.7505966570758928,
+      "count": 6
+    },
+    {
+      "sector": "Crypto",
+      "avg_return": 0.7003410191219639,
+      "count": 2
+    },
+    {
+      "sector": "Financials",
+      "avg_return": 0.6829515645289774,
+      "count": 3
+    },
+    {
+      "sector": "ETF",
+      "avg_return": 0.5372789639511119,
+      "count": 3
+    },
+    {
       "sector": "Automotive",
-      "avg_return": 1.9840666829399778,
+      "avg_return": 0.026721690370390405,
       "count": 1
     },
     {
       "sector": "Healthcare",
-      "avg_return": 1.1874467563120716,
+      "avg_return": -1.2859802917551733,
       "count": 2
     },
     {
       "sector": "Energy",
-      "avg_return": 0.16341649744262554,
-      "count": 2
-    },
-    {
-      "sector": "ETF",
-      "avg_return": -0.0652519436306435,
-      "count": 3
-    },
-    {
-      "sector": "Technology",
-      "avg_return": -0.47583668240420335,
-      "count": 6
-    },
-    {
-      "sector": "Financials",
-      "avg_return": -1.435256759044749,
-      "count": 3
-    },
-    {
-      "sector": "Commodity",
-      "avg_return": -2.1048519619910055,
-      "count": 2
-    },
-    {
-      "sector": "Crypto",
-      "avg_return": -2.6330326151546126,
+      "avg_return": -1.452102804263905,
       "count": 2
     }
   ],
   "top_by_sector": {
     "Technology": [
       {
-        "symbol": "MSFT",
-        "return": 0.553677106172179,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "AAPL",
-        "return": -0.2876733518929475,
+        "symbol": "GOOGL",
+        "return": 4.005284675036913,
         "type": "Unknown"
       },
       {
         "symbol": "AMZN",
-        "return": -0.4168240284109448,
+        "return": 2.5627257563010764,
+        "type": "Unknown"
+      },
+      {
+        "symbol": "META",
+        "return": 1.6873884663457517,
         "type": "Unknown"
       }
     ],
     "Automotive": [
       {
         "symbol": "TSLA",
-        "return": 1.9840666829399778,
+        "return": 0.026721690370390405,
         "type": "Unknown"
       }
     ],
     "Financials": [
       {
-        "symbol": "GS",
-        "return": -0.19234463563702064,
+        "symbol": "JPM",
+        "return": 0.8894727675803793,
         "type": "Unknown"
       },
       {
-        "symbol": "JPM",
-        "return": -1.4809125864210682,
+        "symbol": "GS",
+        "return": 0.6098255246200113,
         "type": "Unknown"
       },
       {
         "symbol": "BAC",
-        "return": -2.6325130550761577,
+        "return": 0.5495564013865417,
         "type": "Unknown"
       }
     ],
     "Healthcare": [
       {
         "symbol": "PFE",
-        "return": 1.885031649296054,
+        "return": -0.7818353948225831,
         "type": "Unknown"
       },
       {
         "symbol": "JNJ",
-        "return": 0.48986186332808934,
+        "return": -1.7901251886877634,
         "type": "Unknown"
       }
     ],
     "ETF": [
       {
-        "symbol": "IWM",
-        "return": 0.005614557323596614,
+        "symbol": "QQQ",
+        "return": 0.8848869230803524,
         "type": "Unknown"
       },
       {
         "symbol": "SPY",
-        "return": -0.028822278768336762,
+        "return": 0.7231785221302411,
         "type": "Unknown"
       },
       {
-        "symbol": "QQQ",
-        "return": -0.17254810944719035,
+        "symbol": "IWM",
+        "return": 0.0037714466427418714,
         "type": "Unknown"
       }
     ],
     "Commodity": [
       {
-        "symbol": "GLD",
-        "return": -1.0534683940205292,
+        "symbol": "SLV",
+        "return": 7.900296354855696,
         "type": "Unknown"
       },
       {
-        "symbol": "SLV",
-        "return": -3.156235529961482,
+        "symbol": "GLD",
+        "return": 1.9714504323102178,
         "type": "Unknown"
       }
     ],
     "Energy": [
       {
-        "symbol": "XOM",
-        "return": 0.2446895712977737,
+        "symbol": "CVX",
+        "return": -0.46000980037395056,
         "type": "Unknown"
       },
       {
-        "symbol": "CVX",
-        "return": 0.0821434235874774,
+        "symbol": "XOM",
+        "return": -2.4441958081538595,
         "type": "Unknown"
       }
     ],
     "Crypto": [
       {
         "symbol": "BTC-USD",
-        "return": -1.4011538127293721,
+        "return": 0.9526211988640565,
         "type": "Unknown"
       },
       {
         "symbol": "ETH-USD",
-        "return": -3.8649114175798527,
+        "return": 0.4480608393798713,
         "type": "Unknown"
       }
     ]
