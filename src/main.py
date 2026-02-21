@@ -1,30 +1,25 @@
+import asyncio
 import pandas as pd
 
-from services.pricing import get_prices
-from analytics.returns import calculate_returns
-from analytics.movers import rank_assets
-#from analytics.history import load_last_snapshots
-from analytics.sectors import rank_sectors, top_by_sector
-
-from reports.snapshot import save_snapshot
-from reports.console import (
-    print_ranking,
-    #print_daily_changes,
-    print_sector_ranking
-)
-from reports.json_export import save_json
+from src.services.pricing import get_prices
+from src.analytics.returns import calculate_returns
+from src.analytics.movers import rank_assets
+from src.analytics.sectors import rank_sectors, top_by_sector
+from src.reports.snapshot import save_snapshot
+from src.reports.console import print_ranking, print_sector_ranking
+from src.reports.json_export import save_json
 
 
-def main():
+def generate_reports():
     universe = pd.read_csv("data/universe.csv")
     results = []
+
+    print("📡 Actualizando market data...")
 
     # 1️⃣ Recolectar datos de mercado
     for _, row in universe.iterrows():
         symbol = row["symbol"]
         sector = row["sector"]
-
-        print(f"Procesando {symbol}...")
 
         try:
             prices = get_prices(symbol)
@@ -59,7 +54,7 @@ def main():
         print_ranking(f"Bottom Movers {label}", bottom, period)
         print_sector_ranking(f"Ranking de Sectores {label}", sectors_avg)
 
-        # JSON para frontend
+        # JSON para frontend (pisan los existentes)
         save_json(period, {
             "top_movers": top[:10],
             "bottom_movers": bottom[:10],
@@ -67,11 +62,12 @@ def main():
             "top_by_sector": sector_top
         })
 
-    # 4️⃣ Comparación vs día anterior
-    #yesterday, today = load_last_snapshots()
-    #if yesterday is not None:
-    #    print_daily_changes(yesterday, today)
+
+async def scheduler():
+    while True:
+        generate_reports()
+        await asyncio.sleep(30)  # ⏱️ cada 30 segundos
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(scheduler())
