@@ -28,3 +28,8 @@ def weekly_market():
 @router.get("/monthly")
 def monthly_market():
     return load_json("monthly.json")
+
+
+@router.get("/all")
+def all_assets():
+    return load_json("all_assets.json")

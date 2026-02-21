@@ -1,35 +1,63 @@
+import sys
 import asyncio
-from fastapi import FastAPI
+from pathlib import Path
 from contextlib import asynccontextmanager
-from fastapi.middleware.cors import CORSMiddleware
+from datetime import datetime
 
-from src.main import scheduler
+from fastapi import FastAPI
 from api.routes.market import router as market_router
+
+# Agregar src/ al path
+sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
+
+REFRESH_MINUTES = 15
+
+
+def run_scraper():
+    try:
+        import os
+        root = Path(__file__).parent.parent
+        original_dir = os.getcwd()
+        os.chdir(root)
+
+        print(f"\n📡 Actualizando market data... [{datetime.now().strftime('%H:%M:%S')}]")
+
+        from src.main import main as scraper_main
+        scraper_main()
+
+        print(f"✅ Market data actualizado [{datetime.now().strftime('%H:%M:%S')}]\n")
+
+    except Exception as e:
+        print(f"❌ Error en scraper: {e}")
+    finally:
+        os.chdir(original_dir)
+
+
+async def scheduler():
+    loop = asyncio.get_event_loop()
+    # Primera corrida al arrancar
+    await loop.run_in_executor(None, run_scraper)
+    # Corridas periódicas
+    while True:
+        await asyncio.sleep(REFRESH_MINUTES * 60)
+        await loop.run_in_executor(None, run_scraper)
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    asyncio.create_task(scheduler())
+    task = asyncio.create_task(scheduler())
     yield
+    task.cancel()
+    try:
+        await task
+    except asyncio.CancelledError:
+        pass
 
 
 app = FastAPI(
     title="Market Radar API",
-    version="0.1.0",
+    version="0.2.0",
     lifespan=lifespan
-)
-
-# 🔥 CORS (para que el frontend pueda pegarle al backend)
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=[
-        "http://localhost:3000",
-        "http://127.0.0.1:3000",
-        "http://192.168.1.100:3000",  # por si entrás desde el celu / otra PC
-    ],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
 )
 
 app.include_router(market_router, prefix="/market")

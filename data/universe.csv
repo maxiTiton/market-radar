@@ -1,28 +1,114 @@
-symbol,sector,type
-AAPL,Technology,Stock
-MSFT,Technology,Stock
-GOOGL,Technology,Stock
-AMZN,Technology,Stock
-META,Technology,Stock
-NVDA,Technology,Stock
-TSLA,Automotive,Stock
-
-JPM,Financials,Stock
-BAC,Financials,Stock
-GS,Financials,Stock
-
-JNJ,Healthcare,Stock
-PFE,Healthcare,Stock
-
-SPY,ETF,ETF
-QQQ,ETF,ETF
-IWM,ETF,ETF
-
-GLD,Commodity,Commodity
-SLV,Commodity,Commodity
-
-XOM,Energy,Stock
-CVX,Energy,Stock
-
-BTC-USD,Crypto,Crypto
-ETH-USD,Crypto,Crypto
+symbol,sector,type,name
+AAPL,Technology,Stock,Apple
+MSFT,Technology,Stock,Microsoft
+GOOGL,Technology,Stock,Alphabet
+AMZN,Technology,Stock,Amazon
+META,Technology,Stock,Meta
+NVDA,Technology,Stock,NVIDIA
+AMD,Technology,Stock,AMD
+INTC,Technology,Stock,Intel
+CRM,Technology,Stock,Salesforce
+ORCL,Technology,Stock,Oracle
+ADBE,Technology,Stock,Adobe
+QCOM,Technology,Stock,Qualcomm
+MU,Technology,Stock,Micron
+AVGO,Technology,Stock,Broadcom
+NOW,Technology,Stock,ServiceNow
+SNOW,Technology,Stock,Snowflake
+TSLA,Automotive,Stock,Tesla
+F,Automotive,Stock,Ford
+GM,Automotive,Stock,General Motors
+JPM,Financials,Stock,JPMorgan
+BAC,Financials,Stock,Bank of America
+GS,Financials,Stock,Goldman Sachs
+MS,Financials,Stock,Morgan Stanley
+WFC,Financials,Stock,Wells Fargo
+BRK-B,Financials,Stock,Berkshire Hathaway
+V,Financials,Stock,Visa
+MA,Financials,Stock,Mastercard
+AXP,Financials,Stock,American Express
+JNJ,Healthcare,Stock,Johnson & Johnson
+PFE,Healthcare,Stock,Pfizer
+MRK,Healthcare,Stock,Merck
+ABBV,Healthcare,Stock,AbbVie
+UNH,Healthcare,Stock,UnitedHealth
+CVS,Healthcare,Stock,CVS Health
+LLY,Healthcare,Stock,Eli Lilly
+AMGN,Healthcare,Stock,Amgen
+XOM,Energy,Stock,ExxonMobil
+CVX,Energy,Stock,Chevron
+COP,Energy,Stock,ConocoPhillips
+SLB,Energy,Stock,SLB
+OXY,Energy,Stock,Occidental
+WMT,Consumer Staples,Stock,Walmart
+KO,Consumer Staples,Stock,Coca-Cola
+PEP,Consumer Staples,Stock,PepsiCo
+PG,Consumer Staples,Stock,Procter & Gamble
+PM,Consumer Staples,Stock,Philip Morris
+COST,Consumer Staples,Stock,Costco
+MCD,Consumer Discretionary,Stock,McDonald's
+NKE,Consumer Discretionary,Stock,Nike
+SBUX,Consumer Discretionary,Stock,Starbucks
+HD,Consumer Discretionary,Stock,Home Depot
+DIS,Consumer Discretionary,Stock,Disney
+BA,Industrials,Stock,Boeing
+CAT,Industrials,Stock,Caterpillar
+GE,Industrials,Stock,GE Aerospace
+HON,Industrials,Stock,Honeywell
+UPS,Industrials,Stock,UPS
+RTX,Industrials,Stock,RTX
+T,Communication Services,Stock,AT&T
+VZ,Communication Services,Stock,Verizon
+NFLX,Communication Services,Stock,Netflix
+SPOT,Communication Services,Stock,Spotify
+NEE,Utilities,Stock,NextEra Energy
+DUK,Utilities,Stock,Duke Energy
+AMT,Real Estate,Stock,American Tower
+PLD,Real Estate,Stock,Prologis
+SPY,ETF,ETF,S&P 500 ETF
+QQQ,ETF,ETF,Nasdaq 100 ETF
+IWM,ETF,ETF,Russell 2000 ETF
+DIA,ETF,ETF,Dow Jones ETF
+VTI,ETF,ETF,Vanguard Total Market
+XLF,ETF,ETF,Financial Select ETF
+XLK,ETF,ETF,Technology Select ETF
+XLE,ETF,ETF,Energy Select ETF
+XLV,ETF,ETF,Health Care Select ETF
+EEM,ETF,ETF,Emerging Markets ETF
+GLD,Commodity,ETF,Gold ETF
+SLV,Commodity,ETF,Silver ETF
+USO,Commodity,ETF,Oil ETF
+DJP,Commodity,ETF,Bloomberg Commodity
+GDX,Commodity,ETF,Gold Miners ETF
+BTC-USD,Crypto,Crypto,Bitcoin
+ETH-USD,Crypto,Crypto,Ethereum
+BNB-USD,Crypto,Crypto,BNB
+SOL-USD,Crypto,Crypto,Solana
+XRP-USD,Crypto,Crypto,XRP
+ADA-USD,Crypto,Crypto,Cardano
+AVAX-USD,Crypto,Crypto,Avalanche
+DOT-USD,Crypto,Crypto,Polkadot
+LINK-USD,Crypto,Crypto,Chainlink
+DOGE-USD,Crypto,Crypto,Dogecoin
+LTC-USD,Crypto,Crypto,Litecoin
+AAPL.BA,CEDEAR,CEDEAR,Apple (CEDEAR)
+MSFT.BA,CEDEAR,CEDEAR,Microsoft (CEDEAR)
+GOOGL.BA,CEDEAR,CEDEAR,Alphabet (CEDEAR)
+AMZN.BA,CEDEAR,CEDEAR,Amazon (CEDEAR)
+META.BA,CEDEAR,CEDEAR,Meta (CEDEAR)
+NVDA.BA,CEDEAR,CEDEAR,NVIDIA (CEDEAR)
+TSLA.BA,CEDEAR,CEDEAR,Tesla (CEDEAR)
+MELI.BA,CEDEAR,CEDEAR,MercadoLibre (CEDEAR)
+BABA.BA,CEDEAR,CEDEAR,Alibaba (CEDEAR)
+PYPL.BA,CEDEAR,CEDEAR,PayPal (CEDEAR)
+JPM.BA,CEDEAR,CEDEAR,JPMorgan (CEDEAR)
+KO.BA,CEDEAR,CEDEAR,Coca-Cola (CEDEAR)
+WMT.BA,CEDEAR,CEDEAR,Walmart (CEDEAR)
+XOM.BA,CEDEAR,CEDEAR,ExxonMobil (CEDEAR)
+GLD.BA,CEDEAR,CEDEAR,Gold ETF (CEDEAR)
+SPY.BA,CEDEAR,CEDEAR,S&P 500 ETF (CEDEAR)
+QQQ.BA,CEDEAR,CEDEAR,Nasdaq 100 ETF (CEDEAR)
+DISN.BA,CEDEAR,CEDEAR,Disney (CEDEAR)
+GLOB.BA,CEDEAR,CEDEAR,Globant (CEDEAR)
+MU.BA,CEDEAR,CEDEAR,Micron (CEDEAR)
+JNJ.BA,CEDEAR,CEDEAR,Johnson & Johnson (CEDEAR)

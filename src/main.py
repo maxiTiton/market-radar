@@ -1,25 +1,25 @@
-import asyncio
 import pandas as pd
 
-from src.services.pricing import get_prices
-from src.analytics.returns import calculate_returns
-from src.analytics.movers import rank_assets
-from src.analytics.sectors import rank_sectors, top_by_sector
-from src.reports.snapshot import save_snapshot
-from src.reports.console import print_ranking, print_sector_ranking
-from src.reports.json_export import save_json
+from services.pricing import get_prices
+from analytics.returns import calculate_returns
+from analytics.movers import rank_assets
+from analytics.sectors import rank_sectors, top_by_sector
+
+from reports.snapshot import save_snapshot
+from reports.console import print_ranking, print_sector_ranking
+from reports.json_export import save_json
 
 
-def generate_reports():
+def main():
     universe = pd.read_csv("data/universe.csv")
     results = []
-
-    print("📡 Actualizando market data...")
 
     # 1️⃣ Recolectar datos de mercado
     for _, row in universe.iterrows():
         symbol = row["symbol"]
         sector = row["sector"]
+
+        print(f"Procesando {symbol}...")
 
         try:
             prices = get_prices(symbol)
@@ -37,7 +37,10 @@ def generate_reports():
     # 2️⃣ Guardar snapshot histórico
     save_snapshot(results)
 
-    # 3️⃣ Rankings por período
+    # 3️⃣ Guardar todos los activos (para heatmap)
+    save_json("all_assets", {"assets": results})
+
+    # 4️⃣ Rankings por período
     for period, label in [
         ("daily", "Diario"),
         ("weekly", "Semanal"),
@@ -54,7 +57,7 @@ def generate_reports():
         print_ranking(f"Bottom Movers {label}", bottom, period)
         print_sector_ranking(f"Ranking de Sectores {label}", sectors_avg)
 
-        # JSON para frontend (pisan los existentes)
+        # JSON para frontend
         save_json(period, {
             "top_movers": top[:10],
             "bottom_movers": bottom[:10],
@@ -63,11 +66,5 @@ def generate_reports():
         })
 
 
-async def scheduler():
-    while True:
-        generate_reports()
-        await asyncio.sleep(30)  # ⏱️ cada 30 segundos
-
-
 if __name__ == "__main__":
-    asyncio.run(scheduler())
+    main()
