@@ -1145,3 +1145,61 @@ body {
 }
 
 .td-star { padding: 0 0.5rem; }
+
+/* ──────────────────────────────────────────────
+   TICKER BAR
+   ────────────────────────────────────────────── */
+.ticker-wrap {
+  width: 100%;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  overflow: hidden;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.ticker-track {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: ticker-scroll 180s linear infinite;
+  will-change: transform;
+  flex-shrink: 0;
+}
+
+.ticker-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes ticker-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0 0.75rem;
+}
+
+.ticker-symbol {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--txt);
+  letter-spacing: 0.05em;
+}
+
+.ticker-val {
+  font-family: var(--font-mono);
+  font-size: 0.63rem;
+  font-weight: 500;
+}
+
+.ticker-sep {
+  color: var(--border-lite);
+  font-size: 0.6rem;
+}
