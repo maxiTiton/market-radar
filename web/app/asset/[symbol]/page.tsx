@@ -251,7 +251,7 @@ export default function AssetPage() {
 
       <footer className="footer" style={{ marginTop: "2rem" }}>
         <span>MARKET RADAR · {data.symbol} · Data via Yahoo Finance</span>
-        <span>FastAPI + Next.js</span>
+        <a href="https://maximo-titon.vercel.app/" target="_blank" rel="noopener noreferrer" className="footer-link">Built by Máximo Titón</a>
       </footer>
     </div>
   );
