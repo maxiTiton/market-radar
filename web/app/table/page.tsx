@@ -198,7 +198,7 @@ export default function TablePage() {
               <tr key={asset.symbol} className={`data-row ${favorites.has(asset.symbol) ? "data-row-fav" : ""}`}>
                 <td className="td-rank">{i + 1}</td>
                 <td className="td-star"><StarBtn symbol={asset.symbol} favorites={favorites} onToggle={toggleFavorite} /></td>
-                <td className="td-symbol">{asset.symbol}</td>
+                <td className="td-symbol"><a href={`/asset/${asset.symbol}`} className="symbol-link">{asset.symbol}</a></td>
                 <td className="td-sector"><span className="sector-chip">{SECTOR_ICONS[asset.sector] ?? "◦"} {asset.sector}</span></td>
                 <td className={`td-num ${colorClass(asset.returns.daily)}`}>{pct(asset.returns.daily)}</td>
                 <td className={`td-num ${colorClass(asset.returns.weekly)}`}>{pct(asset.returns.weekly)}</td>

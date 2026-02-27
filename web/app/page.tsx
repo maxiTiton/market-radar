@@ -179,7 +179,7 @@ export default function Home() {
             {favAssets.map((item) => (
               <div key={item.symbol} className="fav-card">
                 <div className="fav-card-top">
-                  <span className="fav-symbol">{item.symbol}</span>
+                  <a href={`/asset/${item.symbol}`} className="fav-symbol symbol-link">{item.symbol}</a>
                   <StarBtn symbol={item.symbol} favorites={favorites} onToggle={toggleFavorite} />
                 </div>
                 <span className="fav-sector">{SECTOR_ICONS[item.sector] ?? "◦"} {item.sector}</span>
@@ -209,7 +209,7 @@ export default function Home() {
               <div key={i} className={`mover-row ${favorites.has(item.symbol) ? "mover-row-fav" : ""}`}>
                 <span className="mover-rank">{String(i + 1).padStart(2, "0")}</span>
                 <div className="mover-info">
-                  <span className="mover-symbol">{item.symbol}</span>
+                  <a href={`/asset/${item.symbol}`} className="mover-symbol symbol-link">{item.symbol}</a>
                   <span className="mover-sector">{SECTOR_ICONS[item.sector] ?? "◦"} {item.sector}</span>
                 </div>
                 <div className="mover-right">
@@ -233,7 +233,7 @@ export default function Home() {
               <div key={i} className={`mover-row ${favorites.has(item.symbol) ? "mover-row-fav" : ""}`}>
                 <span className="mover-rank red">{String(i + 1).padStart(2, "0")}</span>
                 <div className="mover-info">
-                  <span className="mover-symbol">{item.symbol}</span>
+                  <a href={`/asset/${item.symbol}`} className="mover-symbol symbol-link">{item.symbol}</a>
                   <span className="mover-sector">{SECTOR_ICONS[item.sector] ?? "◦"} {item.sector}</span>
                 </div>
                 <div className="mover-right">
