@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import TickerBar from "./components/TickerBar";
 
 export const metadata: Metadata = {
   title: "Market Radar",
@@ -14,6 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <TickerBar />
         <nav className="top-nav">
           <div className="top-nav-inner">
             <a href="/" className="logo">
