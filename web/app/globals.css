@@ -817,7 +817,8 @@ body {
 
 @media (max-width: 500px) {
   html { font-size: 13px; }
-  .app, .heatmap-page { padding: 0 1rem 2rem; }
+  .app { padding: 0 1rem 2rem; }
+  .heatmap-page { padding: 1.5rem 1rem 2rem; }
   .summary-stat { flex: 1 1 50%; }
   .sector-grid { grid-template-columns: 1fr 1fr; }
 }
@@ -1368,3 +1369,14 @@ body {
 
 /* Gold color token */
 :root { --gold: #f0a040; }
+
+.footer-link {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: var(--txt-dimmer);
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  transition: color 0.15s;
+}
+
+.footer-link:hover { color: var(--accent); }
