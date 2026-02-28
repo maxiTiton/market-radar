@@ -40,20 +40,17 @@ def all_assets():
 @router.get("/asset/{symbol}")
 def asset_detail(symbol: str, period: str = "3mo"):
     try:
-        import yfinance as yf
+        from services.pricing import get_prices
         import math
 
         allowed_periods = ["1mo", "3mo", "6mo", "1y"]
         if period not in allowed_periods:
             period = "3mo"
 
-        ticker = yf.Ticker(symbol)
-        hist = ticker.history(period=period)
+        prices = get_prices(symbol, period=period)
 
-        if hist.empty:
+        if prices is None or prices.empty:
             raise HTTPException(status_code=404, detail=f"No data for {symbol}")
-
-        prices = hist["Close"]
 
         # Build price history for chart
         history = []
