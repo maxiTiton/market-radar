@@ -2,7 +2,7 @@
 
 Dashboard de mercado financiero en tiempo real con seguimiento de acciones, ETFs, criptomonedas y CEDEARs argentinos.
 
-🔗 **[Ver demo](https://market-radar.vercel.app)**
+🔗 **[Ver demo](https://market-radar-azure.vercel.app/)**
 
 ---
 
