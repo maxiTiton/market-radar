@@ -1,6 +1,5 @@
-import time
 import pandas as pd
-from services.pricing import get_prices
+import yfinance as yf
 from analytics.returns import calculate_returns
 from analytics.movers import rank_assets
 from analytics.sectors import rank_sectors, top_by_sector
@@ -8,26 +7,51 @@ from reports.snapshot import save_snapshot
 from reports.console import print_ranking, print_sector_ranking
 from reports.json_export import save_json
 
+
 def main():
     universe = pd.read_csv("data/universe.csv")
+    symbols = universe["symbol"].tolist()
+    sectors = dict(zip(universe["symbol"], universe["sector"]))
+
+    print(f"📥 Descargando {len(symbols)} activos en batch...")
+
+    # Descarga todos los tickers en un solo request
+    raw = yf.download(
+        tickers=symbols,
+        period="1mo",
+        interval="1d",
+        group_by="ticker",
+        auto_adjust=True,
+        threads=True,
+        progress=False
+    )
+
     results = []
 
-    for _, row in universe.iterrows():
-        symbol = row["symbol"]
-        sector = row["sector"]
-        print(f"Procesando {symbol}...")
+    for symbol in symbols:
         try:
-            prices = get_prices(symbol)
+            # Extraer precios del ticker del DataFrame multi-nivel
+            if len(symbols) > 1:
+                prices = raw["Close"][symbol].dropna()
+            else:
+                prices = raw["Close"].dropna()
+
+            if len(prices) < 2:
+                print(f"Sin datos suficientes: {symbol}")
+                continue
+
             returns = calculate_returns(prices)
             results.append({
                 "symbol": symbol,
-                "sector": sector,
+                "sector": sectors[symbol],
                 "returns": returns
             })
+            print(f"✓ {symbol}")
+
         except Exception as e:
             print(f"Error con {symbol}: {e}")
 
-        time.sleep(1.5)  # evitar rate limit de Yahoo Finance
+    print(f"\n✅ {len(results)}/{len(symbols)} activos procesados")
 
     save_snapshot(results)
     save_json("all_assets", {"assets": results})
@@ -52,6 +76,7 @@ def main():
             "sector_ranking": sectors_avg,
             "top_by_sector": sector_top
         })
+
 
 if __name__ == "__main__":
     main()
