@@ -304,7 +304,7 @@ export default function Home() {
       </div>
 
       <footer className="footer">
-        <span>MARKET RADAR · Data via Yahoo Finance · Refreshed every 15 min</span>
+        <span>MARKET RADAR · Data via Yahoo Finance</span>
         <a href="https://maximo-titon.vercel.app/" target="_blank" rel="noopener noreferrer" className="footer-link">Built by Máximo Titón</a>
       </footer>
     </main>
