@@ -8,20 +8,15 @@ from reports.snapshot import save_snapshot
 from reports.console import print_ranking, print_sector_ranking
 from reports.json_export import save_json
 
-REQUESTS_PER_MINUTE = 55  # un poco menos de 60 para margen
-DELAY_BETWEEN = 60 / REQUESTS_PER_MINUTE  # ~1.09 segundos entre requests
-
 
 def main():
     universe = pd.read_csv("data/universe.csv")
     results = []
 
-    print(f"📥 Procesando {len(universe)} activos (Finnhub, ~{DELAY_BETWEEN:.1f}s entre requests)...")
-
-    for i, (_, row) in enumerate(universe.iterrows()):
+    for _, row in universe.iterrows():
         symbol = row["symbol"]
         sector = row["sector"]
-        print(f"[{i+1}/{len(universe)}] {symbol}...")
+        print(f"Procesando {symbol}...")
         try:
             prices = get_prices(symbol)
             returns = calculate_returns(prices)
@@ -31,11 +26,9 @@ def main():
                 "returns": returns
             })
         except Exception as e:
-            print(f"  ✗ Error: {e}")
+            print(f"Error con {symbol}: {e}")
 
-        time.sleep(DELAY_BETWEEN)
-
-    print(f"\n✅ {len(results)}/{len(universe)} activos procesados")
+        time.sleep(2)
 
     save_snapshot(results)
     save_json("all_assets", {"assets": results})
