@@ -13,36 +13,36 @@
       "symbol": "BTC-USD",
       "sector": "Crypto",
       "returns": {
-        "daily": 6.301315767949234,
-        "weekly": 10.192876209404389,
-        "monthly": 8.36049802518113
+        "daily": 6.067239278176828,
+        "weekly": 9.950230467207488,
+        "monthly": 8.121887196853361
       }
     },
     {
       "symbol": "ETH-USD",
       "sector": "Crypto",
       "returns": {
-        "daily": 6.955980550941732,
-        "weekly": 9.83695122673669,
-        "monthly": 7.9203766700994604
+        "daily": 6.554831564892916,
+        "weekly": 9.424996875158254,
+        "monthly": 7.515610620999502
       }
     },
     {
       "symbol": "SOL-USD",
       "sector": "Crypto",
       "returns": {
-        "daily": 3.7174071943588904,
-        "weekly": 10.131782718407823,
-        "monthly": 6.979634011222968
+        "daily": 3.272653084341881,
+        "weekly": 9.65952290848291,
+        "monthly": 6.520891036425613
       }
     },
     {
       "symbol": "BNB-USD",
       "sector": "Crypto",
       "returns": {
-        "daily": 3.277345121460584,
-        "weekly": 6.618278828587787,
-        "monthly": 6.052260637706142
+        "daily": 3.0723991076860635,
+        "weekly": 6.406702986705715,
+        "monthly": 5.841808015750072
       }
     }
   ],
@@ -66,21 +66,21 @@
       }
     },
     {
+      "symbol": "DOT-USD",
+      "sector": "Crypto",
+      "returns": {
+        "daily": -0.42266664911235763,
+        "weekly": -4.735733578187329,
+        "monthly": -8.792667736808934
+      }
+    },
+    {
       "symbol": "GDX",
       "sector": "Commodity",
       "returns": {
         "daily": 0.6081332218163871,
         "weekly": -8.598065779819775,
         "monthly": -8.598065779819775
-      }
-    },
-    {
-      "symbol": "DOT-USD",
-      "sector": "Crypto",
-      "returns": {
-        "daily": -0.07135201989162399,
-        "weekly": -4.399635700189009,
-        "monthly": -8.470882958707426
       }
     },
     {
@@ -96,7 +96,7 @@
   "sector_ranking": [
     {
       "sector": "Crypto",
-      "avg_return": 3.3130757937885424,
+      "avg_return": 2.9987144649941597,
       "count": 11
     },
     {
@@ -385,17 +385,17 @@
     "Crypto": [
       {
         "symbol": "BTC-USD",
-        "return": 8.36049802518113,
+        "return": 8.121887196853361,
         "type": "Unknown"
       },
       {
         "symbol": "ETH-USD",
-        "return": 7.9203766700994604,
+        "return": 7.515610620999502,
         "type": "Unknown"
       },
       {
         "symbol": "SOL-USD",
-        "return": 6.979634011222968,
+        "return": 6.520891036425613,
         "type": "Unknown"
       }
     ],
