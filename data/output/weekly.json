@@ -10,39 +10,39 @@
       }
     },
     {
-      "symbol": "SOL-USD",
-      "sector": "Crypto",
-      "returns": {
-        "daily": 3.7534588601133123,
-        "weekly": 10.170063989863664,
-        "monthly": 7.016819611135561
-      }
-    },
-    {
       "symbol": "BTC-USD",
       "sector": "Crypto",
       "returns": {
-        "daily": 6.258920720001981,
-        "weekly": 10.148929130889005,
-        "monthly": 8.317281734995285
+        "daily": 6.301315767949234,
+        "weekly": 10.192876209404389,
+        "monthly": 8.36049802518113
+      }
+    },
+    {
+      "symbol": "SOL-USD",
+      "sector": "Crypto",
+      "returns": {
+        "daily": 3.7174071943588904,
+        "weekly": 10.131782718407823,
+        "monthly": 6.979634011222968
       }
     },
     {
       "symbol": "ETH-USD",
       "sector": "Crypto",
       "returns": {
-        "daily": 7.094552351457195,
-        "weekly": 9.9792556029503,
-        "monthly": 8.060197938909752
+        "daily": 6.955980550941732,
+        "weekly": 9.83695122673669,
+        "monthly": 7.9203766700994604
       }
     },
     {
-      "symbol": "BNB-USD",
+      "symbol": "LINK-USD",
       "sector": "Crypto",
       "returns": {
-        "daily": 3.15904592589511,
-        "weekly": 6.4961527553123455,
-        "monthly": 5.93078291084761
+        "daily": 5.369302339272486,
+        "weekly": 6.622671026808047,
+        "monthly": 4.9956196936502995
       }
     }
   ],
@@ -96,7 +96,7 @@
   "sector_ranking": [
     {
       "sector": "Crypto",
-      "avg_return": 4.928373552618871,
+      "avg_return": 5.044387467430975,
       "count": 11
     },
     {
@@ -384,18 +384,18 @@
     ],
     "Crypto": [
       {
-        "symbol": "SOL-USD",
-        "return": 10.170063989863664,
+        "symbol": "BTC-USD",
+        "return": 10.192876209404389,
         "type": "Unknown"
       },
       {
-        "symbol": "BTC-USD",
-        "return": 10.148929130889005,
+        "symbol": "SOL-USD",
+        "return": 10.131782718407823,
         "type": "Unknown"
       },
       {
         "symbol": "ETH-USD",
-        "return": 9.9792556029503,
+        "return": 9.83695122673669,
         "type": "Unknown"
       }
     ],
