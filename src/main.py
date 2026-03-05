@@ -1,4 +1,5 @@
 import time
+import math
 import pandas as pd
 from services.pricing import get_prices
 from analytics.returns import calculate_returns
@@ -9,29 +10,66 @@ from reports.console import print_ranking, print_sector_ranking
 from reports.json_export import save_json
 
 
+def build_history(prices):
+    """Convierte una Series de precios en lista de {date, price}."""
+    history = []
+    for date, price in prices.items():
+        if not math.isnan(float(price)):
+            history.append({
+                "date": date.strftime("%Y-%m-%d"),
+                "price": round(float(price), 4)
+            })
+    return history
+
+
 def main():
     universe = pd.read_csv("data/universe.csv")
     results = []
+    histories = {}  # symbol -> {1mo, 3mo, 6mo, 1y}
 
     for _, row in universe.iterrows():
         symbol = row["symbol"]
         sector = row["sector"]
         print(f"Procesando {symbol}...")
         try:
-            prices = get_prices(symbol)
-            returns = calculate_returns(prices)
+            # Precios 1mo para retornos
+            prices_1mo = get_prices(symbol, period="1mo")
+            returns = calculate_returns(prices_1mo)
             results.append({
                 "symbol": symbol,
                 "sector": sector,
                 "returns": returns
             })
+
+            # Historial extendido para gráficos
+            histories[symbol] = {
+                "1mo": build_history(prices_1mo),
+            }
+            time.sleep(2)
+
+            prices_3mo = get_prices(symbol, period="3mo")
+            histories[symbol]["3mo"] = build_history(prices_3mo)
+            time.sleep(2)
+
+            prices_6mo = get_prices(symbol, period="6mo")
+            histories[symbol]["6mo"] = build_history(prices_6mo)
+            time.sleep(2)
+
+            prices_1y = get_prices(symbol, period="1y")
+            histories[symbol]["1y"] = build_history(prices_1y)
+            time.sleep(2)
+
         except Exception as e:
             print(f"Error con {symbol}: {e}")
+            time.sleep(2)
 
-        time.sleep(2)
-
+    # Guardar datos principales
     save_snapshot(results)
     save_json("all_assets", {"assets": results})
+
+    # Guardar historial de precios por activo
+    save_json("histories", histories)
+    print(f"✅ Historial guardado para {len(histories)} activos")
 
     for period, label in [
         ("daily", "Diario"),
