@@ -57,24 +57,6 @@
       }
     },
     {
-      "symbol": "AVAX-USD",
-      "sector": "Crypto",
-      "returns": {
-        "daily": -4.59483562196239,
-        "weekly": -0.940363173994585,
-        "monthly": -2.2963710039982543
-      }
-    },
-    {
-      "symbol": "BNB-USD",
-      "sector": "Crypto",
-      "returns": {
-        "daily": -4.4159362331571135,
-        "weekly": -4.831978080017052,
-        "monthly": -5.411388667595007
-      }
-    },
-    {
       "symbol": "XOM.BA",
       "sector": "CEDEAR",
       "returns": {
@@ -90,6 +72,24 @@
         "daily": -3.9360357051919315,
         "weekly": -0.5834284186302607,
         "monthly": -0.9197538332486377
+      }
+    },
+    {
+      "symbol": "SLV",
+      "sector": "Commodity",
+      "returns": {
+        "daily": -3.448779711139971,
+        "weekly": 3.704291203797383,
+        "monthly": -3.448779711139971
+      }
+    },
+    {
+      "symbol": "GM",
+      "sector": "Automotive",
+      "returns": {
+        "daily": -3.331556462551555,
+        "weekly": -0.6029082230296301,
+        "monthly": -2.6308712543257173
       }
     }
   ],
@@ -108,6 +108,11 @@
       "sector": "Commodity",
       "avg_return": 1.3968820591218312,
       "count": 5
+    },
+    {
+      "sector": "Crypto",
+      "avg_return": 1.3054070079333115,
+      "count": 11
     },
     {
       "sector": "Real Estate",
@@ -135,14 +140,14 @@
       "count": 16
     },
     {
+      "sector": "Financials",
+      "avg_return": 0.09923880588610255,
+      "count": 9
+    },
+    {
       "sector": "ETF",
       "avg_return": 0.06849126864506783,
       "count": 10
-    },
-    {
-      "sector": "Financials",
-      "avg_return": 0.06426083261832484,
-      "count": 9
     },
     {
       "sector": "Industrials",
@@ -158,11 +163,6 @@
       "sector": "Consumer Discretionary",
       "avg_return": -0.6911000318842953,
       "count": 5
-    },
-    {
-      "sector": "Crypto",
-      "avg_return": -3.0636974973766233,
-      "count": 11
     },
     {
       "sector": "Automotive",
@@ -384,18 +384,18 @@
     ],
     "Crypto": [
       {
-        "symbol": "BTC-USD",
-        "return": -1.801285394687091,
+        "symbol": "ADA-USD",
+        "return": 3.7359857655862694,
         "type": "Unknown"
       },
       {
-        "symbol": "DOGE-USD",
-        "return": -1.895299105754178,
+        "symbol": "AVAX-USD",
+        "return": 2.2703505638854926,
         "type": "Unknown"
       },
       {
-        "symbol": "DOT-USD",
-        "return": -1.9193909195885817,
+        "symbol": "LTC-USD",
+        "return": 2.2467952014392223,
         "type": "Unknown"
       }
     ],

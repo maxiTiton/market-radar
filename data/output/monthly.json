@@ -57,15 +57,6 @@
       }
     },
     {
-      "symbol": "BNB-USD",
-      "sector": "Crypto",
-      "returns": {
-        "daily": -4.4159362331571135,
-        "weekly": -4.831978080017052,
-        "monthly": -5.411388667595007
-      }
-    },
-    {
       "symbol": "XOM",
       "sector": "Energy",
       "returns": {
@@ -75,12 +66,12 @@
       }
     },
     {
-      "symbol": "SOL-USD",
+      "symbol": "BNB-USD",
       "sector": "Crypto",
       "returns": {
-        "daily": -2.728569851326179,
-        "weekly": -4.86520906600264,
-        "monthly": -4.9655235092853856
+        "daily": 0.9064995456407487,
+        "weekly": -4.055071449236147,
+        "monthly": -4.639212070268117
       }
     },
     {
@@ -90,6 +81,15 @@
         "daily": 0.48941985857713366,
         "weekly": -3.3263956255026095,
         "monthly": -4.378849881899882
+      }
+    },
+    {
+      "symbol": "XOM.BA",
+      "sector": "CEDEAR",
+      "returns": {
+        "daily": -4.049719326383316,
+        "weekly": -5.039682539682544,
+        "monthly": -4.049719326383316
       }
     }
   ],
@@ -131,7 +131,7 @@
     },
     {
       "sector": "Financials",
-      "avg_return": 0.28739690183643546,
+      "avg_return": 0.32225648306284016,
       "count": 9
     },
     {
@@ -150,14 +150,14 @@
       "count": 4
     },
     {
+      "sector": "Crypto",
+      "avg_return": -1.1810613195724056,
+      "count": 11
+    },
+    {
       "sector": "Automotive",
       "avg_return": -1.7043184701575953,
       "count": 3
-    },
-    {
-      "sector": "Crypto",
-      "avg_return": -2.577145441175291,
-      "count": 11
     },
     {
       "sector": "Energy",
@@ -385,17 +385,17 @@
     "Crypto": [
       {
         "symbol": "ADA-USD",
-        "return": -0.8259320404226278,
+        "return": 2.7890720503134236,
         "type": "Unknown"
       },
       {
-        "symbol": "DOT-USD",
-        "return": -1.6529594689195015,
+        "symbol": "AVAX-USD",
+        "return": 0.4645000132732724,
         "type": "Unknown"
       },
       {
-        "symbol": "LINK-USD",
-        "return": -1.7722660217822317,
+        "symbol": "DOGE-USD",
+        "return": 0.020943850119592433,
         "type": "Unknown"
       }
     ],
