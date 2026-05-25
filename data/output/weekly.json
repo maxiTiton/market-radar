@@ -66,30 +66,30 @@
       }
     },
     {
-      "symbol": "DOGE-USD",
-      "sector": "Crypto",
+      "symbol": "NEE",
+      "sector": "Utilities",
       "returns": {
-        "daily": -1.5109859938774672,
-        "weekly": -8.344283755007542,
-        "monthly": -2.434904758183387
+        "daily": -1.2710439944442986,
+        "weekly": -5.152096751443713,
+        "monthly": -9.532074441628936
       }
     },
     {
-      "symbol": "LTC-USD",
-      "sector": "Crypto",
+      "symbol": "USO",
+      "sector": "Commodity",
       "returns": {
-        "daily": -1.4255171265363242,
-        "weekly": -7.189248287533301,
-        "monthly": -3.280944781995321
+        "daily": -1.1365197091987689,
+        "weekly": -4.931523827356932,
+        "monthly": -4.194709580909761
       }
     },
     {
-      "symbol": "ETH-USD",
-      "sector": "Crypto",
+      "symbol": "NVDA",
+      "sector": "Technology",
       "returns": {
-        "daily": -2.600186615332556,
-        "weekly": -6.62694889672556,
-        "monthly": -7.989413094370512
+        "daily": -1.904237975665879,
+        "weekly": -4.433696595255821,
+        "monthly": 7.89697546146424
       }
     }
   ],
@@ -111,7 +111,7 @@
     },
     {
       "sector": "Industrials",
-      "avg_return": 3.346452487059335,
+      "avg_return": 3.418240994487211,
       "count": 6
     },
     {
@@ -140,6 +140,11 @@
       "count": 10
     },
     {
+      "sector": "Crypto",
+      "avg_return": 1.2679441535297722,
+      "count": 11
+    },
+    {
       "sector": "CEDEAR",
       "avg_return": 0.3395202931090346,
       "count": 20
@@ -163,11 +168,6 @@
       "sector": "Commodity",
       "avg_return": -2.2635888126026837,
       "count": 5
-    },
-    {
-      "sector": "Crypto",
-      "avg_return": -5.206884714743587,
-      "count": 11
     }
   ],
   "top_by_sector": {
@@ -302,8 +302,8 @@
         "type": "Unknown"
       },
       {
-        "symbol": "UPS",
-        "return": 3.8338942259622977,
+        "symbol": "RTX",
+        "return": 3.8365039622567876,
         "type": "Unknown"
       }
     ],
@@ -384,18 +384,18 @@
     ],
     "Crypto": [
       {
-        "symbol": "DOT-USD",
-        "return": -2.610462626779597,
+        "symbol": "BTC-USD",
+        "return": 2.3960167637861574,
         "type": "Unknown"
       },
       {
-        "symbol": "BNB-USD",
-        "return": -2.88365139006338,
+        "symbol": "ETH-USD",
+        "return": 2.269795511350514,
         "type": "Unknown"
       },
       {
         "symbol": "AVAX-USD",
-        "return": -3.008058488792853,
+        "return": 2.0046504261465703,
         "type": "Unknown"
       }
     ],

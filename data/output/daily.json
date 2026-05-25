@@ -48,48 +48,48 @@
   ],
   "bottom_movers": [
     {
-      "symbol": "ETH-USD",
-      "sector": "Crypto",
+      "symbol": "COST",
+      "sector": "Consumer Staples",
       "returns": {
-        "daily": -2.600186615332556,
-        "weekly": -6.62694889672556,
-        "monthly": -7.989413094370512
+        "daily": -2.1143283326085838,
+        "weekly": -1.9743516756317137,
+        "monthly": 1.4984236632225478
       }
     },
     {
-      "symbol": "SOL-USD",
-      "sector": "Crypto",
+      "symbol": "NVDA",
+      "sector": "Technology",
       "returns": {
-        "daily": -2.4165820329562826,
-        "weekly": -4.652842977337112,
-        "monthly": 2.440560590842389
+        "daily": -1.904237975665879,
+        "weekly": -4.433696595255821,
+        "monthly": 7.89697546146424
       }
     },
     {
-      "symbol": "XRP-USD",
-      "sector": "Crypto",
+      "symbol": "SLV",
+      "sector": "Commodity",
       "returns": {
-        "daily": -2.287535078497638,
-        "weekly": -6.4887299059524945,
-        "monthly": -1.9547576052447502
+        "daily": -1.569469237994281,
+        "weekly": -0.9849366977960794,
+        "monthly": 2.55025030730458
       }
     },
     {
-      "symbol": "BTC-USD",
-      "sector": "Crypto",
+      "symbol": "MU",
+      "sector": "Technology",
       "returns": {
-        "daily": -2.1991102481064506,
-        "weekly": -4.087335618024057,
-        "monthly": -0.6163744209683464
+        "daily": -1.456498614555568,
+        "weekly": 3.6348118885566327,
+        "monthly": 45.21618821998763
       }
     },
     {
-      "symbol": "LINK-USD",
-      "sector": "Crypto",
+      "symbol": "NEE",
+      "sector": "Utilities",
       "returns": {
-        "daily": -2.1824135296989233,
-        "weekly": -5.346420777335814,
-        "monthly": 4.653114291690974
+        "daily": -1.2710439944442986,
+        "weekly": -5.152096751443713,
+        "monthly": -9.532074441628936
       }
     }
   ],
@@ -116,8 +116,13 @@
     },
     {
       "sector": "Industrials",
-      "avg_return": 1.1574312876304487,
+      "avg_return": 1.2272618479910145,
       "count": 6
+    },
+    {
+      "sector": "Crypto",
+      "avg_return": 0.6441047228216751,
+      "count": 11
     },
     {
       "sector": "ETF",
@@ -163,11 +168,6 @@
       "sector": "Commodity",
       "avg_return": -1.0552835649593106,
       "count": 5
-    },
-    {
-      "sector": "Crypto",
-      "avg_return": -1.7764529172905164,
-      "count": 11
     }
   ],
   "top_by_sector": {
@@ -385,17 +385,17 @@
     "Crypto": [
       {
         "symbol": "DOT-USD",
-        "return": -0.3693225999955585,
+        "return": 2.0375360233514828,
         "type": "Unknown"
       },
       {
-        "symbol": "BNB-USD",
-        "return": -0.7028027803105297,
+        "symbol": "AVAX-USD",
+        "return": 1.3346925813192412,
         "type": "Unknown"
       },
       {
-        "symbol": "LTC-USD",
-        "return": -1.4255171265363242,
+        "symbol": "LINK-USD",
+        "return": 0.7954163755864663,
         "type": "Unknown"
       }
     ],
