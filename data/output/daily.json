@@ -1,418 +1,418 @@
 {
   "top_movers": [
     {
-      "symbol": "AMD",
+      "symbol": "META",
       "sector": "Technology",
       "returns": {
-        "daily": 7.677618428501676,
-        "weekly": 11.375043926283656,
-        "monthly": 12.557643988456647
+        "daily": 8.808961112881498,
+        "weekly": 11.38754623253635,
+        "monthly": 8.808961112881498
+      }
+    },
+    {
+      "symbol": "NOW",
+      "sector": "Technology",
+      "returns": {
+        "daily": 6.56728883222002,
+        "weekly": 7.5859334875659545,
+        "monthly": 6.56728883222002
+      }
+    },
+    {
+      "symbol": "NKE",
+      "sector": "Consumer Discretionary",
+      "returns": {
+        "daily": 4.896473017265768,
+        "weekly": 5.66871502648103,
+        "monthly": 4.896473017265768
+      }
+    },
+    {
+      "symbol": "PEP",
+      "sector": "Consumer Staples",
+      "returns": {
+        "daily": 4.254069442594388,
+        "weekly": -0.1626676062889243,
+        "monthly": 4.254069442594388
+      }
+    },
+    {
+      "symbol": "CRM",
+      "sector": "Technology",
+      "returns": {
+        "daily": 4.19379031778917,
+        "weekly": 3.068763503310934,
+        "monthly": 4.19379031778917
+      }
+    }
+  ],
+  "bottom_movers": [
+    {
+      "symbol": "MU",
+      "sector": "Technology",
+      "returns": {
+        "daily": -10.570134510102847,
+        "weekly": -8.835757300496649,
+        "monthly": -10.570134510102847
+      }
+    },
+    {
+      "symbol": "MU.BA",
+      "sector": "CEDEAR",
+      "returns": {
+        "daily": -9.791609163676506,
+        "weekly": -6.481150296873883,
+        "monthly": -9.791609163676506
       }
     },
     {
       "symbol": "INTC",
       "sector": "Technology",
       "returns": {
-        "daily": 6.005165190407036,
-        "weekly": 8.813900337472269,
-        "monthly": 21.756195074330375
+        "daily": -9.031016113140812,
+        "weekly": -1.0131005353418376,
+        "monthly": -9.031016113140812
       }
     },
     {
       "symbol": "CAT",
       "sector": "Industrials",
       "returns": {
-        "daily": 3.0691436043843723,
-        "weekly": 6.760108644013152,
-        "monthly": 21.581973392247967
+        "daily": -6.901122132095683,
+        "weekly": -0.6075368418682281,
+        "monthly": -6.901122132095683
       }
     },
     {
-      "symbol": "AAPL",
+      "symbol": "AMD",
       "sector": "Technology",
       "returns": {
-        "daily": 2.704619642688466,
-        "weekly": 1.9663072084954436,
-        "monthly": -7.274246101591086
-      }
-    },
-    {
-      "symbol": "NVDA",
-      "sector": "Technology",
-      "returns": {
-        "daily": 2.6260425117358155,
-        "weekly": 3.9266595369690904,
-        "monthly": -5.123049341072095
-      }
-    }
-  ],
-  "bottom_movers": [
-    {
-      "symbol": "T",
-      "sector": "Communication Services",
-      "returns": {
-        "daily": -5.132900767869552,
-        "weekly": -8.890838958906622,
-        "monthly": -16.532252420371652
-      }
-    },
-    {
-      "symbol": "VZ",
-      "sector": "Communication Services",
-      "returns": {
-        "daily": -3.990926037256015,
-        "weekly": -9.024496519806014,
-        "monthly": -11.441123328975545
-      }
-    },
-    {
-      "symbol": "NFLX",
-      "sector": "Communication Services",
-      "returns": {
-        "daily": -3.2258027823196533,
-        "weekly": -3.2651349579055022,
-        "monthly": -16.996042417732337
-      }
-    },
-    {
-      "symbol": "AMT",
-      "sector": "Real Estate",
-      "returns": {
-        "daily": -3.023650263882882,
-        "weekly": -6.845486226072706,
-        "monthly": -11.675556190541169
-      }
-    },
-    {
-      "symbol": "GLOB.BA",
-      "sector": "CEDEAR",
-      "returns": {
-        "daily": -2.9779058597502406,
-        "weekly": -2.131782945736438,
-        "monthly": -24.11720510894064
+        "daily": -6.890907388804502,
+        "weekly": 3.7002927950831044,
+        "monthly": -6.890907388804502
       }
     }
   ],
   "sector_ranking": [
     {
-      "sector": "CEDEAR",
-      "avg_return": 1.909142714709373,
-      "count": 20
-    },
-    {
-      "sector": "Technology",
-      "avg_return": 1.1818303788094213,
-      "count": 16
-    },
-    {
-      "sector": "ETF",
-      "avg_return": 0.5740114385430317,
-      "count": 10
-    },
-    {
-      "sector": "Industrials",
-      "avg_return": 0.5000913628943912,
-      "count": 6
-    },
-    {
-      "sector": "Automotive",
-      "avg_return": 0.31164837200830703,
-      "count": 3
-    },
-    {
-      "sector": "Commodity",
-      "avg_return": 0.29812951757088646,
-      "count": 5
-    },
-    {
-      "sector": "Energy",
-      "avg_return": -0.4351895431222186,
-      "count": 5
-    },
-    {
-      "sector": "Financials",
-      "avg_return": -0.44915746058558564,
-      "count": 9
-    },
-    {
-      "sector": "Consumer Discretionary",
-      "avg_return": -0.7084378396329405,
-      "count": 5
-    },
-    {
-      "sector": "Healthcare",
-      "avg_return": -0.9805261907368066,
-      "count": 8
-    },
-    {
-      "sector": "Utilities",
-      "avg_return": -1.1837572571866462,
-      "count": 2
-    },
-    {
-      "sector": "Consumer Staples",
-      "avg_return": -1.4465557965292992,
-      "count": 6
-    },
-    {
       "sector": "Crypto",
-      "avg_return": -1.907488319337459,
+      "avg_return": 3.839044637672625,
       "count": 11
     },
     {
+      "sector": "Financials",
+      "avg_return": 1.9378429372620585,
+      "count": 9
+    },
+    {
+      "sector": "CEDEAR",
+      "avg_return": 1.917296036121699,
+      "count": 20
+    },
+    {
       "sector": "Real Estate",
-      "avg_return": -2.7430146286562818,
+      "avg_return": 1.2581381575710648,
       "count": 2
     },
     {
       "sector": "Communication Services",
-      "avg_return": -3.2582959951275554,
+      "avg_return": 1.231448268293542,
       "count": 4
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "avg_return": 0.9324881914540949,
+      "count": 5
+    },
+    {
+      "sector": "Healthcare",
+      "avg_return": -0.0515806328882637,
+      "count": 8
+    },
+    {
+      "sector": "Technology",
+      "avg_return": -0.12162557839537352,
+      "count": 16
+    },
+    {
+      "sector": "Consumer Staples",
+      "avg_return": -0.33952696057783877,
+      "count": 6
+    },
+    {
+      "sector": "ETF",
+      "avg_return": -0.5463459900346346,
+      "count": 10
+    },
+    {
+      "sector": "Industrials",
+      "avg_return": -0.5974529691442799,
+      "count": 6
+    },
+    {
+      "sector": "Commodity",
+      "avg_return": -0.6216334742071572,
+      "count": 5
+    },
+    {
+      "sector": "Automotive",
+      "avg_return": -0.9256431762623066,
+      "count": 3
+    },
+    {
+      "sector": "Energy",
+      "avg_return": -1.0768730396756565,
+      "count": 5
+    },
+    {
+      "sector": "Utilities",
+      "avg_return": -1.1174933798216602,
+      "count": 2
     }
   ],
   "top_by_sector": {
     "Technology": [
       {
-        "symbol": "AMD",
-        "return": 7.677618428501676,
+        "symbol": "META",
+        "return": 8.808961112881498,
         "type": "Unknown"
       },
       {
-        "symbol": "INTC",
-        "return": 6.005165190407036,
+        "symbol": "NOW",
+        "return": 6.56728883222002,
         "type": "Unknown"
       },
       {
-        "symbol": "AAPL",
-        "return": 2.704619642688466,
+        "symbol": "CRM",
+        "return": 4.19379031778917,
         "type": "Unknown"
       }
     ],
     "Automotive": [
       {
         "symbol": "TSLA",
-        "return": 2.127042017171621,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "GM",
-        "return": -0.33617082899777273,
+        "return": 1.1174468904540102,
         "type": "Unknown"
       },
       {
         "symbol": "F",
-        "return": -0.855926072148927,
+        "return": -1.8704984341216147,
+        "type": "Unknown"
+      },
+      {
+        "symbol": "GM",
+        "return": -2.0238779851193156,
         "type": "Unknown"
       }
     ],
     "Financials": [
       {
-        "symbol": "BRK-B",
-        "return": 0.8850835984753003,
+        "symbol": "WFC",
+        "return": 3.9932273428491483,
         "type": "Unknown"
       },
       {
-        "symbol": "MA",
-        "return": 0.7770113852287874,
+        "symbol": "AXP",
+        "return": 2.882483370288247,
         "type": "Unknown"
       },
       {
-        "symbol": "V",
-        "return": 0.42148469695058033,
+        "symbol": "BAC",
+        "return": 2.4219043159035225,
         "type": "Unknown"
       }
     ],
     "Healthcare": [
       {
-        "symbol": "AMGN",
-        "return": 0.43544789276772633,
+        "symbol": "UNH",
+        "return": 2.6249316781606025,
         "type": "Unknown"
       },
       {
         "symbol": "CVS",
-        "return": -0.12551156643590966,
+        "return": 1.3146453846992312,
         "type": "Unknown"
       },
       {
-        "symbol": "MRK",
-        "return": -0.6801706984085998,
+        "symbol": "JNJ",
+        "return": 0.003935309992475489,
         "type": "Unknown"
       }
     ],
     "Energy": [
       {
-        "symbol": "XOM",
-        "return": 0.4850828119595807,
+        "symbol": "CVX",
+        "return": -0.04222494434674706,
         "type": "Unknown"
       },
       {
-        "symbol": "SLB",
-        "return": 0.23717250499846187,
+        "symbol": "XOM",
+        "return": -0.32182741184734187,
         "type": "Unknown"
       },
       {
         "symbol": "COP",
-        "return": -0.23032425220582686,
+        "return": -0.7118101868856752,
         "type": "Unknown"
       }
     ],
     "Consumer Staples": [
       {
-        "symbol": "PM",
-        "return": -1.071794995030273,
+        "symbol": "PEP",
+        "return": 4.254069442594388,
         "type": "Unknown"
       },
       {
-        "symbol": "WMT",
-        "return": -1.169281287724644,
+        "symbol": "PG",
+        "return": 0.5387297391032275,
         "type": "Unknown"
       },
       {
-        "symbol": "COST",
-        "return": -1.1841405817578532,
+        "symbol": "KO",
+        "return": 0.024614585071036643,
         "type": "Unknown"
       }
     ],
     "Consumer Discretionary": [
       {
-        "symbol": "MCD",
-        "return": 1.1714967320216596,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "HD",
-        "return": 0.5330506913147959,
-        "type": "Unknown"
-      },
-      {
         "symbol": "NKE",
-        "return": -1.0366449130211342,
+        "return": 4.896473017265768,
+        "type": "Unknown"
+      },
+      {
+        "symbol": "SBUX",
+        "return": 1.1742801835534111,
+        "type": "Unknown"
+      },
+      {
+        "symbol": "MCD",
+        "return": -0.3255539531503038,
         "type": "Unknown"
       }
     ],
     "Industrials": [
       {
-        "symbol": "CAT",
-        "return": 3.0691436043843723,
+        "symbol": "UPS",
+        "return": 1.8976752702579924,
         "type": "Unknown"
       },
       {
         "symbol": "RTX",
-        "return": 1.2811583158200301,
+        "return": 1.080484424140149,
         "type": "Unknown"
       },
       {
         "symbol": "BA",
-        "return": 0.8291018487377677,
+        "return": 0.9747311860548669,
         "type": "Unknown"
       }
     ],
     "Communication Services": [
       {
-        "symbol": "SPOT",
-        "return": -0.6835543930650001,
+        "symbol": "NFLX",
+        "return": 3.907564223953286,
         "type": "Unknown"
       },
       {
-        "symbol": "NFLX",
-        "return": -3.2258027823196533,
+        "symbol": "SPOT",
+        "return": 2.907674506466429,
         "type": "Unknown"
       },
       {
         "symbol": "VZ",
-        "return": -3.990926037256015,
+        "return": -0.8266378669337326,
         "type": "Unknown"
       }
     ],
     "Utilities": [
       {
-        "symbol": "NEE",
-        "return": -1.0038427501479208,
+        "symbol": "DUK",
+        "return": -0.6399156077350865,
         "type": "Unknown"
       },
       {
-        "symbol": "DUK",
-        "return": -1.3636717642253715,
+        "symbol": "NEE",
+        "return": -1.595071151908234,
         "type": "Unknown"
       }
     ],
     "Real Estate": [
       {
-        "symbol": "PLD",
-        "return": -2.4623789934296814,
+        "symbol": "AMT",
+        "return": 1.5345077914319383,
         "type": "Unknown"
       },
       {
-        "symbol": "AMT",
-        "return": -3.023650263882882,
+        "symbol": "PLD",
+        "return": 0.9817685237101914,
         "type": "Unknown"
       }
     ],
     "ETF": [
       {
-        "symbol": "XLK",
-        "return": 2.7560544250158303,
+        "symbol": "XLF",
+        "return": 2.182425211014438,
         "type": "Unknown"
       },
       {
-        "symbol": "QQQ",
-        "return": 1.7014704222517052,
+        "symbol": "XLV",
+        "return": 0.5546386006000104,
         "type": "Unknown"
       },
       {
-        "symbol": "EEM",
-        "return": 1.453364010823499,
+        "symbol": "DIA",
+        "return": 0.0019161479630769307,
         "type": "Unknown"
       }
     ],
     "Commodity": [
       {
+        "symbol": "GLD",
+        "return": 0.6026389031102086,
+        "type": "Unknown"
+      },
+      {
         "symbol": "SLV",
-        "return": 1.4996220784944114,
+        "return": 0.20572397202223147,
         "type": "Unknown"
       },
       {
         "symbol": "DJP",
-        "return": 0.9468818813770152,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "GLD",
-        "return": -0.05425733809176769,
+        "return": -0.43468000615098923,
         "type": "Unknown"
       }
     ],
     "Crypto": [
       {
-        "symbol": "DOT-USD",
-        "return": -0.21098362304567964,
-        "type": "Unknown"
-      },
-      {
         "symbol": "ADA-USD",
-        "return": -0.9526950276647961,
+        "return": 8.489058093463386,
         "type": "Unknown"
       },
       {
-        "symbol": "XRP-USD",
-        "return": -1.576801166125008,
+        "symbol": "SOL-USD",
+        "return": 6.456032766733766,
+        "type": "Unknown"
+      },
+      {
+        "symbol": "LINK-USD",
+        "return": 3.818706722427012,
         "type": "Unknown"
       }
     ],
     "CEDEAR": [
       {
         "symbol": "DISN.BA",
-        "return": 20.488434190393324,
+        "return": 20.583717357910913,
         "type": "Unknown"
       },
       {
-        "symbol": "AAPL.BA",
-        "return": 3.013698630136985,
+        "symbol": "GLOB.BA",
+        "return": 8.613861386138622,
         "type": "Unknown"
       },
       {
-        "symbol": "NVDA.BA",
-        "return": 2.9318541996830483,
+        "symbol": "MSFT.BA",
+        "return": 3.6541430777148776,
         "type": "Unknown"
       }
     ]
