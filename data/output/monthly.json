@@ -4,58 +4,49 @@
       "symbol": "DISN.BA",
       "sector": "CEDEAR",
       "returns": {
-        "daily": 25.288018433179715,
-        "weekly": 25.28877021391498,
-        "monthly": 25.288018433179715
-      }
-    },
-    {
-      "symbol": "GLOB.BA",
-      "sector": "CEDEAR",
-      "returns": {
-        "daily": 4.0109389243391025,
-        "weekly": 10.562015503875966,
-        "monthly": 12.970297029702959
+        "daily": 28.168202764976957,
+        "weekly": 28.168971828027956,
+        "monthly": 28.168202764976957
       }
     },
     {
       "symbol": "ADA-USD",
       "sector": "Crypto",
       "returns": {
-        "daily": 4.4533907736812095,
-        "weekly": 8.565106391193344,
-        "monthly": 11.61054759354132
+        "daily": 10.668160850835019,
+        "weekly": 20.440469353512825,
+        "monthly": 23.819035266557155
+      }
+    },
+    {
+      "symbol": "GLOB.BA",
+      "sector": "CEDEAR",
+      "returns": {
+        "daily": 0.6134969325153339,
+        "weekly": 11.240310077519378,
+        "monthly": 13.663366336633654
       }
     },
     {
       "symbol": "SOL-USD",
       "sector": "Crypto",
       "returns": {
-        "daily": 4.091685590530547,
-        "weekly": 12.131379315215685,
-        "monthly": 9.557098914198804
+        "daily": 2.2022923382106985,
+        "weekly": 14.734546588446173,
+        "monthly": 12.10050341154114
       }
     },
     {
-      "symbol": "NFLX",
-      "sector": "Communication Services",
+      "symbol": "ETH-USD",
+      "sector": "Crypto",
       "returns": {
-        "daily": 4.663699919952546,
-        "weekly": 5.202552627422574,
-        "monthly": 8.753501213490434
+        "daily": 3.4884976383404487,
+        "weekly": 11.467214281848538,
+        "monthly": 11.966622261215587
       }
     }
   ],
   "bottom_movers": [
-    {
-      "symbol": "MU.BA",
-      "sector": "CEDEAR",
-      "returns": {
-        "daily": -6.639638950508687,
-        "weekly": -12.690464267830315,
-        "monthly": -15.781120618272148
-      }
-    },
     {
       "symbol": "MU",
       "sector": "Technology",
@@ -63,6 +54,15 @@
         "daily": -5.494636157682464,
         "weekly": -13.84490074274095,
         "monthly": -15.483980235077532
+      }
+    },
+    {
+      "symbol": "MU.BA",
+      "sector": "CEDEAR",
+      "returns": {
+        "daily": 2.2367882015567497,
+        "weekly": -10.737534873739186,
+        "monthly": -13.897322660778356
       }
     },
     {
@@ -96,8 +96,13 @@
   "sector_ranking": [
     {
       "sector": "Crypto",
-      "avg_return": 5.474674267905715,
+      "avg_return": 10.019892055041833,
       "count": 11
+    },
+    {
+      "sector": "CEDEAR",
+      "avg_return": 3.7369072518112447,
+      "count": 21
     },
     {
       "sector": "Communication Services",
@@ -111,13 +116,8 @@
     },
     {
       "sector": "Financials",
-      "avg_return": 3.1242143544285628,
+      "avg_return": 3.155862821513682,
       "count": 9
-    },
-    {
-      "sector": "CEDEAR",
-      "avg_return": 2.7942855655272156,
-      "count": 21
     },
     {
       "sector": "Consumer Staples",
@@ -218,7 +218,7 @@
       },
       {
         "symbol": "AXP",
-        "return": 4.053212551390439,
+        "return": 4.3380487551565095,
         "type": "Unknown"
       }
     ],
@@ -385,34 +385,34 @@
     "Crypto": [
       {
         "symbol": "ADA-USD",
-        "return": 11.61054759354132,
+        "return": 23.819035266557155,
         "type": "Unknown"
       },
       {
         "symbol": "SOL-USD",
-        "return": 9.557098914198804,
+        "return": 12.10050341154114,
         "type": "Unknown"
       },
       {
         "symbol": "ETH-USD",
-        "return": 8.035001626609862,
+        "return": 11.966622261215587,
         "type": "Unknown"
       }
     ],
     "CEDEAR": [
       {
         "symbol": "DISN.BA",
-        "return": 25.288018433179715,
+        "return": 28.168202764976957,
         "type": "Unknown"
       },
       {
         "symbol": "GLOB.BA",
-        "return": 12.970297029702959,
+        "return": 13.663366336633654,
         "type": "Unknown"
       },
       {
         "symbol": "AAPL.BA",
-        "return": 7.624113475177308,
+        "return": 7.180851063829796,
         "type": "Unknown"
       }
     ]
