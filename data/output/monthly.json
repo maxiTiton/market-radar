@@ -4,45 +4,45 @@
       "symbol": "DISN.BA",
       "sector": "CEDEAR",
       "returns": {
-        "daily": 33.6405529953917,
-        "weekly": 33.6405529953917,
-        "monthly": 33.6405529953917
+        "daily": 32.96850998463903,
+        "weekly": 32.96850998463903,
+        "monthly": 32.96850998463903
       }
     },
     {
-      "symbol": "META",
-      "sector": "Technology",
-      "returns": {
-        "daily": 0.99725337795733,
-        "weekly": 6.703920053050183,
-        "monthly": 7.762866581232664
-      }
-    },
-    {
-      "symbol": "INTC",
-      "sector": "Technology",
-      "returns": {
-        "daily": 4.505296133202719,
-        "weekly": 7.074999155795192,
-        "monthly": 7.0271486598271204
-      }
-    },
-    {
-      "symbol": "ORCL",
-      "sector": "Technology",
-      "returns": {
-        "daily": 3.0771265254208258,
-        "weekly": 5.256872625076037,
-        "monthly": 6.478006959776228
-      }
-    },
-    {
-      "symbol": "ADA-USD",
+      "symbol": "DOT-USD",
       "sector": "Crypto",
       "returns": {
-        "daily": -4.875991602752283,
-        "weekly": 3.6328621159527508,
-        "monthly": 6.410197677003238
+        "daily": 8.274487556680876,
+        "weekly": 17.599430067719556,
+        "monthly": 25.886796865813857
+      }
+    },
+    {
+      "symbol": "LTC-USD",
+      "sector": "Crypto",
+      "returns": {
+        "daily": 0.6197618793186921,
+        "weekly": 8.926352599393583,
+        "monthly": 13.984044193485467
+      }
+    },
+    {
+      "symbol": "LINK-USD",
+      "sector": "Crypto",
+      "returns": {
+        "daily": -3.6964424927719786,
+        "weekly": 9.420720460429187,
+        "monthly": 12.545492732372177
+      }
+    },
+    {
+      "symbol": "AVAX-USD",
+      "sector": "Crypto",
+      "returns": {
+        "daily": 2.0628175949661376,
+        "weekly": 9.291687320951802,
+        "monthly": 11.630131226844863
       }
     }
   ],
@@ -60,9 +60,9 @@
       "symbol": "GLOB.BA",
       "sector": "CEDEAR",
       "returns": {
-        "daily": -3.0239099859353025,
-        "weekly": -4.3689320388349495,
-        "monthly": -4.765193370165743
+        "daily": -1.6678752719361811,
+        "weekly": -1.6678752719361811,
+        "monthly": -6.353591160220995
       }
     },
     {
@@ -75,15 +75,6 @@
       }
     },
     {
-      "symbol": "TSLA.BA",
-      "sector": "CEDEAR",
-      "returns": {
-        "daily": -6.162324649298601,
-        "weekly": 0.37513397642015,
-        "monthly": -4.487506374298822
-      }
-    },
-    {
       "symbol": "SLB",
       "sector": "Energy",
       "returns": {
@@ -91,17 +82,26 @@
         "weekly": 0.8344581082111446,
         "monthly": -3.812976643613575
       }
+    },
+    {
+      "symbol": "TSLA",
+      "sector": "Automotive",
+      "returns": {
+        "daily": -5.922365978717725,
+        "weekly": 1.5283115619399545,
+        "monthly": -3.769540745921074
+      }
     }
   ],
   "sector_ranking": [
     {
       "sector": "Crypto",
-      "avg_return": 2.364485539520385,
+      "avg_return": 8.605920582118602,
       "count": 11
     },
     {
       "sector": "CEDEAR",
-      "avg_return": 1.44239955977494,
+      "avg_return": 1.9120289516340985,
       "count": 21
     },
     {
@@ -116,12 +116,12 @@
     },
     {
       "sector": "Technology",
-      "avg_return": 1.0540057968883296,
+      "avg_return": 1.0580970958077773,
       "count": 16
     },
     {
       "sector": "Automotive",
-      "avg_return": 0.9255748371990576,
+      "avg_return": 0.9956600969984408,
       "count": 3
     },
     {
@@ -131,7 +131,7 @@
     },
     {
       "sector": "Financials",
-      "avg_return": 0.6896608872280311,
+      "avg_return": 0.747027970077712,
       "count": 9
     },
     {
@@ -151,7 +151,7 @@
     },
     {
       "sector": "Consumer Staples",
-      "avg_return": -0.8437608192579752,
+      "avg_return": -0.6691515898419801,
       "count": 6
     },
     {
@@ -196,7 +196,7 @@
       },
       {
         "symbol": "GM",
-        "return": 1.6682141409838147,
+        "return": 1.8784699203819644,
         "type": "Unknown"
       },
       {
@@ -384,35 +384,35 @@
     ],
     "Crypto": [
       {
-        "symbol": "ADA-USD",
-        "return": 6.410197677003238,
+        "symbol": "DOT-USD",
+        "return": 25.886796865813857,
         "type": "Unknown"
       },
       {
         "symbol": "LTC-USD",
-        "return": 4.663792742262651,
+        "return": 13.984044193485467,
         "type": "Unknown"
       },
       {
-        "symbol": "BNB-USD",
-        "return": 4.004881574045305,
+        "symbol": "LINK-USD",
+        "return": 12.545492732372177,
         "type": "Unknown"
       }
     ],
     "CEDEAR": [
       {
         "symbol": "DISN.BA",
-        "return": 33.6405529953917,
+        "return": 32.96850998463903,
         "type": "Unknown"
       },
       {
         "symbol": "MU.BA",
-        "return": 5.224369472649859,
+        "return": 7.246970193252533,
         "type": "Unknown"
       },
       {
         "symbol": "NVDA.BA",
-        "return": 3.6784741144414212,
+        "return": 4.564032697547682,
         "type": "Unknown"
       }
     ]

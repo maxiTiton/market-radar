@@ -1,6 +1,15 @@
 {
   "top_movers": [
     {
+      "symbol": "DOT-USD",
+      "sector": "Crypto",
+      "returns": {
+        "daily": 8.274487556680876,
+        "weekly": 17.599430067719556,
+        "monthly": 25.886796865813857
+      }
+    },
+    {
       "symbol": "MU",
       "sector": "Technology",
       "returns": {
@@ -35,15 +44,6 @@
         "weekly": 5.256872625076037,
         "monthly": 6.478006959776228
       }
-    },
-    {
-      "symbol": "CAT",
-      "sector": "Industrials",
-      "returns": {
-        "daily": 1.7246966206323489,
-        "weekly": 1.710715706517485,
-        "monthly": 2.065285508338288
-      }
     }
   ],
   "bottom_movers": [
@@ -54,15 +54,6 @@
         "daily": -6.733154937664043,
         "weekly": -8.5791644451777,
         "monthly": -8.975715704883703
-      }
-    },
-    {
-      "symbol": "TSLA.BA",
-      "sector": "CEDEAR",
-      "returns": {
-        "daily": -6.162324649298601,
-        "weekly": 0.37513397642015,
-        "monthly": -4.487506374298822
       }
     },
     {
@@ -91,12 +82,21 @@
         "weekly": -4.246207989316608,
         "monthly": -3.45466125395425
       }
+    },
+    {
+      "symbol": "LINK-USD",
+      "sector": "Crypto",
+      "returns": {
+        "daily": -3.6964424927719786,
+        "weekly": 9.420720460429187,
+        "monthly": 12.545492732372177
+      }
     }
   ],
   "sector_ranking": [
     {
       "sector": "CEDEAR",
-      "avg_return": 0.6226692052042675,
+      "avg_return": 2.1706487306996753,
       "count": 20
     },
     {
@@ -111,12 +111,17 @@
     },
     {
       "sector": "Technology",
-      "avg_return": -0.15304691844686202,
+      "avg_return": -0.14898905789845968,
       "count": 16
     },
     {
+      "sector": "Crypto",
+      "avg_return": -0.33247041978581904,
+      "count": 11
+    },
+    {
       "sector": "Financials",
-      "avg_return": -0.43527508025351164,
+      "avg_return": -0.3789088514411904,
       "count": 9
     },
     {
@@ -145,24 +150,19 @@
       "count": 5
     },
     {
+      "sector": "Consumer Staples",
+      "avg_return": -0.999588411353645,
+      "count": 6
+    },
+    {
       "sector": "Healthcare",
       "avg_return": -1.1268593545796568,
       "count": 8
     },
     {
-      "sector": "Consumer Staples",
-      "avg_return": -1.1745960640831479,
-      "count": 6
-    },
-    {
       "sector": "Automotive",
-      "avg_return": -1.2819730995946612,
+      "avg_return": -1.2126123725988756,
       "count": 3
-    },
-    {
-      "sector": "Crypto",
-      "avg_return": -2.449715389394069,
-      "count": 11
     },
     {
       "sector": "Communication Services",
@@ -196,7 +196,7 @@
       },
       {
         "symbol": "GM",
-        "return": 0.6191250951268712,
+        "return": 0.827207276114228,
         "type": "Unknown"
       },
       {
@@ -263,13 +263,13 @@
         "type": "Unknown"
       },
       {
-        "symbol": "KO",
-        "return": -0.8332371175681086,
+        "symbol": "PEP",
+        "return": -0.6568526100633965,
         "type": "Unknown"
       },
       {
-        "symbol": "COST",
-        "return": -1.0449404254092687,
+        "symbol": "KO",
+        "return": -0.8332371175681086,
         "type": "Unknown"
       }
     ],
@@ -384,35 +384,35 @@
     ],
     "Crypto": [
       {
-        "symbol": "BNB-USD",
-        "return": -0.868446410600543,
+        "symbol": "DOT-USD",
+        "return": 8.274487556680876,
+        "type": "Unknown"
+      },
+      {
+        "symbol": "AVAX-USD",
+        "return": 2.0628175949661376,
         "type": "Unknown"
       },
       {
         "symbol": "LTC-USD",
-        "return": -1.3382612266589322,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "DOT-USD",
-        "return": -1.7343454924207191,
+        "return": 0.6197618793186921,
         "type": "Unknown"
       }
     ],
     "CEDEAR": [
       {
         "symbol": "DISN.BA",
-        "return": 33.6405529953917,
+        "return": 32.96850998463903,
         "type": "Unknown"
       },
       {
         "symbol": "MU.BA",
-        "return": 5.717811600164535,
+        "return": 1.9221789883268503,
         "type": "Unknown"
       },
       {
-        "symbol": "BABA.BA",
-        "return": 1.0632911392405076,
+        "symbol": "GOOGL.BA",
+        "return": 1.7799352750809128,
         "type": "Unknown"
       }
     ]
