@@ -96,47 +96,47 @@
   "sector_ranking": [
     {
       "sector": "CEDEAR",
-      "avg_return": 7.411715834660792,
+      "avg_return": 6.23426073987887,
       "count": 21
     },
     {
       "sector": "Crypto",
-      "avg_return": -12.528434306821739,
+      "avg_return": -20.35576800456349,
       "count": 11
     }
   ],
   "top_by_sector": {
     "Crypto": [
       {
-        "symbol": "BNB-USD",
-        "return": -1.2030459196082033,
-        "type": "Unknown"
-      },
-      {
         "symbol": "BTC-USD",
-        "return": -2.9624980820284974,
+        "return": -7.765603639045294,
         "type": "Unknown"
       },
       {
-        "symbol": "XRP-USD",
-        "return": -11.206310909391771,
+        "symbol": "BNB-USD",
+        "return": -10.631805291116947,
+        "type": "Unknown"
+      },
+      {
+        "symbol": "ETH-USD",
+        "return": -17.781164375118664,
         "type": "Unknown"
       }
     ],
     "CEDEAR": [
       {
         "symbol": "DISN.BA",
-        "return": 44.68125960061444,
+        "return": 45.92933947772657,
         "type": "Unknown"
       },
       {
         "symbol": "GLOB.BA",
-        "return": 28.19063004846527,
+        "return": 28.99838449111469,
         "type": "Unknown"
       },
       {
-        "symbol": "TSLA.BA",
-        "return": 17.11286089238846,
+        "symbol": "WMT.BA",
+        "return": 18.780096308186202,
         "type": "Unknown"
       }
     ]
