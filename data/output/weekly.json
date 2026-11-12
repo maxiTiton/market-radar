@@ -1,208 +1,142 @@
 {
   "top_movers": [
     {
-      "symbol": "AMD",
+      "symbol": "AAPL",
       "sector": "Technology",
       "returns": {
-        "daily": 1.3036367091587397,
-        "weekly": 14.735883700464235,
-        "monthly": 2.0622096734195905
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     },
     {
-      "symbol": "AVGO",
+      "symbol": "MSFT",
       "sector": "Technology",
       "returns": {
-        "daily": 3.9126078534331032,
-        "weekly": 13.037559408431365,
-        "monthly": 1.8093794949157083
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     },
     {
-      "symbol": "SNOW",
+      "symbol": "GOOGL",
       "sector": "Technology",
       "returns": {
-        "daily": 1.5868636685913096,
-        "weekly": 7.206033250310062,
-        "monthly": -3.3716601082652176
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     },
     {
-      "symbol": "TSLA",
-      "sector": "Automotive",
+      "symbol": "AMZN",
+      "sector": "Technology",
       "returns": {
-        "daily": 0.4576143478876471,
-        "weekly": 6.018647056312854,
-        "monthly": -5.009879418125706
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     },
     {
-      "symbol": "GS",
-      "sector": "Financials",
+      "symbol": "META",
+      "sector": "Technology",
       "returns": {
-        "daily": 0.4380869840245216,
-        "weekly": 5.124621138556407,
-        "monthly": 1.7483667611493114
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     }
   ],
   "bottom_movers": [
     {
-      "symbol": "NVDA",
+      "symbol": "AAPL",
       "sector": "Technology",
       "returns": {
-        "daily": -5.47377784716222,
-        "weekly": -9.510287214984025,
-        "monthly": -17.46970294498954
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     },
     {
-      "symbol": "NOW",
+      "symbol": "MSFT",
       "sector": "Technology",
       "returns": {
-        "daily": -3.06539651653851,
-        "weekly": -2.3144067687550507,
-        "monthly": -5.241630510145345
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     },
     {
-      "symbol": "F",
-      "sector": "Automotive",
+      "symbol": "GOOGL",
+      "sector": "Technology",
       "returns": {
-        "daily": -1.9169386263373167,
-        "weekly": -1.2861724502339578,
-        "monthly": 0.24489577935666862
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     },
     {
-      "symbol": "ADBE",
+      "symbol": "AMZN",
       "sector": "Technology",
       "returns": {
-        "daily": -0.26125499614093606,
-        "weekly": -1.0865048350848894,
-        "monthly": -5.407025140994248
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     },
     {
-      "symbol": "CRM",
+      "symbol": "META",
       "sector": "Technology",
       "returns": {
-        "daily": -0.6792624440698058,
-        "weekly": -0.07956853442629974,
-        "monthly": -6.846446989906374
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     }
   ],
   "sector_ranking": [
     {
-      "sector": "Technology",
-      "avg_return": 3.1038486382383295,
-      "count": 16
-    },
-    {
-      "sector": "Automotive",
-      "avg_return": 2.556290154890291,
-      "count": 3
-    },
-    {
-      "sector": "Financials",
-      "avg_return": 2.161710557691141,
-      "count": 9
-    },
-    {
       "sector": "CEDEAR",
-      "avg_return": 1.7985356012448297,
+      "avg_return": 4.4560746045592685,
       "count": 20
     },
     {
       "sector": "Crypto",
-      "avg_return": -5.368319690715642,
+      "avg_return": -5.566995424650056,
       "count": 11
     }
   ],
   "top_by_sector": {
-    "Technology": [
-      {
-        "symbol": "AMD",
-        "return": 14.735883700464235,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "AVGO",
-        "return": 13.037559408431365,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "SNOW",
-        "return": 7.206033250310062,
-        "type": "Unknown"
-      }
-    ],
-    "Automotive": [
-      {
-        "symbol": "TSLA",
-        "return": 6.018647056312854,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "GM",
-        "return": 2.936395858591978,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "F",
-        "return": -1.2861724502339578,
-        "type": "Unknown"
-      }
-    ],
-    "Financials": [
-      {
-        "symbol": "GS",
-        "return": 5.124621138556407,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "MS",
-        "return": 3.3730131364850813,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "BAC",
-        "return": 2.549579487888831,
-        "type": "Unknown"
-      }
-    ],
     "Crypto": [
       {
         "symbol": "AVAX-USD",
-        "return": 0.6787207533525574,
+        "return": 2.455553980626224,
         "type": "Unknown"
       },
       {
         "symbol": "BNB-USD",
-        "return": -2.0382723236508804,
+        "return": -2.17677131964763,
         "type": "Unknown"
       },
       {
         "symbol": "BTC-USD",
-        "return": -3.1085727794041174,
+        "return": -2.6977681748032944,
         "type": "Unknown"
       }
     ],
     "CEDEAR": [
       {
         "symbol": "DISN.BA",
-        "return": 55.14592933947773,
+        "return": 59.370199692780346,
         "type": "Unknown"
       },
       {
-        "symbol": "BABA.BA",
-        "return": 12.472283813747232,
+        "symbol": "MU.BA",
+        "return": 17.714223575467592,
         "type": "Unknown"
       },
       {
-        "symbol": "AMZN.BA",
-        "return": 8.4761045987376,
+        "symbol": "TSLA.BA",
+        "return": 8.312468703054577,
         "type": "Unknown"
       }
     ]

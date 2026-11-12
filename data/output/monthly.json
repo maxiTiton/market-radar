@@ -1,208 +1,142 @@
 {
   "top_movers": [
     {
+      "symbol": "AAPL",
+      "sector": "Technology",
+      "returns": {
+        "daily": null,
+        "weekly": null,
+        "monthly": null
+      }
+    },
+    {
+      "symbol": "MSFT",
+      "sector": "Technology",
+      "returns": {
+        "daily": null,
+        "weekly": null,
+        "monthly": null
+      }
+    },
+    {
+      "symbol": "GOOGL",
+      "sector": "Technology",
+      "returns": {
+        "daily": null,
+        "weekly": null,
+        "monthly": null
+      }
+    },
+    {
       "symbol": "AMZN",
       "sector": "Technology",
       "returns": {
-        "daily": 1.4760433632468706,
-        "weekly": 4.462016146894898,
-        "monthly": 12.698143639957848
-      }
-    },
-    {
-      "symbol": "BRK-B",
-      "sector": "Financials",
-      "returns": {
-        "daily": 1.4063497358485444,
-        "weekly": 2.180807491386605,
-        "monthly": 7.530099606712581
-      }
-    },
-    {
-      "symbol": "QCOM",
-      "sector": "Technology",
-      "returns": {
-        "daily": 1.2013749016904107,
-        "weekly": 4.909010904669708,
-        "monthly": 5.303723435432373
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     },
     {
       "symbol": "META",
       "sector": "Technology",
       "returns": {
-        "daily": 0.003121370098768672,
-        "weekly": 5.120050640721563,
-        "monthly": 4.292756765683503
-      }
-    },
-    {
-      "symbol": "WFC",
-      "sector": "Financials",
-      "returns": {
-        "daily": 0.31583141795277214,
-        "weekly": 2.1682149653196037,
-        "monthly": 3.4396400609517874
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     }
   ],
   "bottom_movers": [
     {
-      "symbol": "MU",
+      "symbol": "AAPL",
       "sector": "Technology",
       "returns": {
-        "daily": -1.0966430873306843,
-        "weekly": 5.088403674139497,
-        "monthly": -18.042589534189048
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     },
     {
-      "symbol": "NVDA",
+      "symbol": "MSFT",
       "sector": "Technology",
       "returns": {
-        "daily": -5.47377784716222,
-        "weekly": -9.510287214984025,
-        "monthly": -17.46970294498954
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     },
     {
-      "symbol": "INTC",
+      "symbol": "GOOGL",
       "sector": "Technology",
       "returns": {
-        "daily": -2.088593373889369,
-        "weekly": 3.2871398879612324,
-        "monthly": -11.602799300870892
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     },
     {
-      "symbol": "ORCL",
+      "symbol": "AMZN",
       "sector": "Technology",
       "returns": {
-        "daily": -1.510975494415523,
-        "weekly": 1.619297939294606,
-        "monthly": -9.711483117650788
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     },
     {
-      "symbol": "CRM",
+      "symbol": "META",
       "sector": "Technology",
       "returns": {
-        "daily": -0.6792624440698058,
-        "weekly": -0.07956853442629974,
-        "monthly": -6.846446989906374
+        "daily": null,
+        "weekly": null,
+        "monthly": null
       }
     }
   ],
   "sector_ranking": [
     {
-      "sector": "Financials",
-      "avg_return": 2.6913677417916544,
-      "count": 9
-    },
-    {
       "sector": "CEDEAR",
-      "avg_return": 1.7128910488045996,
+      "avg_return": 3.0873693139057767,
       "count": 21
     },
     {
-      "sector": "Automotive",
-      "avg_return": -1.0963366923258462,
-      "count": 3
-    },
-    {
-      "sector": "Technology",
-      "avg_return": -2.8469583793943096,
-      "count": 16
-    },
-    {
       "sector": "Crypto",
-      "avg_return": -9.073133423731123,
+      "avg_return": -9.253577554064583,
       "count": 11
     }
   ],
   "top_by_sector": {
-    "Technology": [
-      {
-        "symbol": "AMZN",
-        "return": 12.698143639957848,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "QCOM",
-        "return": 5.303723435432373,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "META",
-        "return": 4.292756765683503,
-        "type": "Unknown"
-      }
-    ],
-    "Automotive": [
-      {
-        "symbol": "GM",
-        "return": 1.4759735617914993,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "F",
-        "return": 0.24489577935666862,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "TSLA",
-        "return": -5.009879418125706,
-        "type": "Unknown"
-      }
-    ],
-    "Financials": [
-      {
-        "symbol": "BRK-B",
-        "return": 7.530099606712581,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "WFC",
-        "return": 3.4396400609517874,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "MA",
-        "return": 3.264841737748858,
-        "type": "Unknown"
-      }
-    ],
     "Crypto": [
       {
         "symbol": "AVAX-USD",
-        "return": -2.0157546190174847,
+        "return": -0.28647496945987116,
         "type": "Unknown"
       },
       {
         "symbol": "BNB-USD",
-        "return": -3.3622122765203155,
+        "return": -3.498839476678206,
         "type": "Unknown"
       },
       {
         "symbol": "BTC-USD",
-        "return": -5.220484020417193,
+        "return": -4.818633591507693,
         "type": "Unknown"
       }
     ],
     "CEDEAR": [
       {
         "symbol": "DISN.BA",
-        "return": 55.14592933947773,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "BABA.BA",
-        "return": 12.472283813747232,
+        "return": 59.370199692780346,
         "type": "Unknown"
       },
       {
         "symbol": "AMZN.BA",
-        "return": 8.4761045987376,
+        "return": 10.910730387736688,
+        "type": "Unknown"
+      },
+      {
+        "symbol": "GOOGL.BA",
+        "return": 5.47945205479452,
         "type": "Unknown"
       }
     ]
