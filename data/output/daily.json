@@ -96,47 +96,47 @@
   "sector_ranking": [
     {
       "sector": "CEDEAR",
-      "avg_return": 4.4560746045592685,
+      "avg_return": 2.347097964513065,
       "count": 20
     },
     {
       "sector": "Crypto",
-      "avg_return": -0.2926808331238928,
+      "avg_return": -1.9920155152012669,
       "count": 11
     }
   ],
   "top_by_sector": {
     "Crypto": [
       {
-        "symbol": "AVAX-USD",
-        "return": 1.9538902233027233,
+        "symbol": "ADA-USD",
+        "return": -0.2069916633436919,
+        "type": "Unknown"
+      },
+      {
+        "symbol": "LTC-USD",
+        "return": -0.39814436207036286,
         "type": "Unknown"
       },
       {
         "symbol": "DOT-USD",
-        "return": 0.2533903937458559,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "ETH-USD",
-        "return": 0.08482244981000697,
+        "return": -0.8392317814474914,
         "type": "Unknown"
       }
     ],
     "CEDEAR": [
       {
         "symbol": "DISN.BA",
-        "return": 59.370199692780346,
-        "type": "Unknown"
-      },
-      {
-        "symbol": "MU.BA",
-        "return": 17.714223575467592,
+        "return": 58.02611367127497,
         "type": "Unknown"
       },
       {
         "symbol": "TSLA.BA",
-        "return": 8.312468703054577,
+        "return": 2.4040684234859055,
+        "type": "Unknown"
+      },
+      {
+        "symbol": "XOM.BA",
+        "return": 2.2350396539293493,
         "type": "Unknown"
       }
     ]
